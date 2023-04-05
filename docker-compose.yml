@@ -1,4 +1,4 @@
-version: '3'
+version:'3'
   services:
     green:
       image: rachamallaakhila/green:v1
