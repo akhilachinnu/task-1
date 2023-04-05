@@ -1,0 +1,22 @@
+version: '3'
+  services:
+    green:
+      image: rachamallaakhila/green:v1
+      ports:
+        - "81:80"
+      deploy:
+        replicas: 3
+  blue:
+    image: rachamallaakhila/blue:v1
+    ports:
+      - "82:80"
+    deploy:
+       replicas: 3
+  pink:
+    image: rachamallaakhila/pink:v1
+    ports:
+      - "83:80"
+    deploy:
+       replicas: 3
+
+
