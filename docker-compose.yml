@@ -1,5 +1,5 @@
 version: '3'
-  services:
+services:
     green:
       image: rachamallaakhila/green:v1
       ports:
